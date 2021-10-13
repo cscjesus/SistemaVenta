@@ -14,7 +14,7 @@ public class Login extends javax.swing.JFrame {
     LoginDAO login = new LoginDAO();
     private Timer tiempo;
     int contador;
-    int segundos = 10;
+    int segundos = 5;
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
