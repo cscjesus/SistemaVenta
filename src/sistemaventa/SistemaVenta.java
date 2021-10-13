@@ -23,3 +23,11 @@ public class SistemaVenta {
     }
     
 }
+/*
+idea original:
+https://www.youtube.com/playlist?list=PLMPZIgg1n4JlSr_81Lhp8lem8Dtfe9qxV
+
+idea modificada:
+https://www.youtube.com/watch?v=NqOOxG2ln5s&t=58s
+https://github.com/SistemasGratis/punto-de-venta-Java-y-Mysql
+*/
