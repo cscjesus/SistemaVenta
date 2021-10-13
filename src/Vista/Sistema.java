@@ -455,6 +455,7 @@ public final class Sistema extends javax.swing.JFrame {
             }
         });
 
+        LabelVendedor.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         LabelVendedor.setForeground(new java.awt.Color(255, 255, 255));
         LabelVendedor.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         LabelVendedor.setText("Administrador");
@@ -513,7 +514,7 @@ public final class Sistema extends javax.swing.JFrame {
                 .addComponent(btnConfig, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnUsuarios, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 13, Short.MAX_VALUE))
+                .addGap(0, 18, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 560));
@@ -622,7 +623,7 @@ public final class Sistema extends javax.swing.JFrame {
         jPanel2.add(btnEliminarventa, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 110, -1, 40));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel8.setText("Dni/Ruc");
+        jLabel8.setText("RFC:");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 352, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
@@ -797,7 +798,7 @@ public final class Sistema extends javax.swing.JFrame {
 
         jPanel2.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 405, 160, 2));
 
-        jTabbedPane1.addTab("1", jPanel2);
+        jTabbedPane1.addTab("1", null, jPanel2, "");
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -830,7 +831,7 @@ public final class Sistema extends javax.swing.JFrame {
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel12.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel12.setText("Dni/Ruc:");
+        jLabel12.setText("RFC:");
         jPanel9.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
 
         txtDniCliente.setBackground(new java.awt.Color(204, 204, 204));
@@ -1021,7 +1022,7 @@ public final class Sistema extends javax.swing.JFrame {
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel17.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel17.setText("Ruc:");
+        jLabel17.setText("RFC:");
         jPanel10.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
         txtRucProveedor.setBackground(new java.awt.Color(204, 204, 204));
@@ -1431,11 +1432,11 @@ public final class Sistema extends javax.swing.JFrame {
         jPanel8.add(txtIdConfig, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, 24, -1));
 
         jLabel30.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel30.setText("Dirección");
+        jLabel30.setText("Direccion");
         jPanel8.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, -1, -1));
 
         jLabel29.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel29.setText("Teléfono");
+        jLabel29.setText("Telefono");
         jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, -1, -1));
 
         txtTelefonoConfig.setBackground(new java.awt.Color(204, 204, 204));
@@ -1469,7 +1470,7 @@ public final class Sistema extends javax.swing.JFrame {
         jPanel8.add(btnActualizarConfig, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, 180, 35));
 
         jLabel27.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel27.setText("Ruc");
+        jLabel27.setText("RFC");
         jPanel8.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
 
         txtRucConfig.setBackground(new java.awt.Color(204, 204, 204));
@@ -1586,12 +1587,12 @@ public final class Sistema extends javax.swing.JFrame {
 
         jLabel34.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jLabel34.setForeground(new java.awt.Color(0, 0, 255));
-        jLabel34.setText("Correo Electrónico");
+        jLabel34.setText("Correo Electrónico:");
         jPanel13.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 102, -1, -1));
 
         jLabel35.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jLabel35.setForeground(new java.awt.Color(0, 0, 255));
-        jLabel35.setText("Password");
+        jLabel35.setText("Password:");
         jPanel13.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 163, -1, -1));
 
         txtCorreo.setBackground(new java.awt.Color(204, 204, 204));
